@@ -39,3 +39,8 @@ update test_db.stage2
 from  src_db.source4
 set
 id = b.abc_id
+
+insert into test_db.stage3
+select a,b,c
+
+from src_db.source5
