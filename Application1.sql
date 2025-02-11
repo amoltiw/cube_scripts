@@ -19,7 +19,7 @@ BEGIN
  DECLARE create_dt            DATE;
  DECLARE new_create_dt           TIMESTAMP(0);
  
- del from itsp_amr.wx_wallet_entry_id;
+ del from its_test.its_testpurchase;
 
 insert into test_db.stage1
 sel  a,b,c
